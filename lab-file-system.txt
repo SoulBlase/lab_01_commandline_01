@@ -15,10 +15,12 @@ Follow the instructions line-by-line.
 ==========
 2. Create a directory called mtec1002.
 ----------
-
+ent-v314-015:~ student$ mkdir Quincy-mtec1002
 ==========
 3. Change your directory so that you're in mtec1002.
 ----------
+ent-v314-015:Quincy-mtec1002 student$ 
+
 
 ==========
 4. Type:
@@ -31,7 +33,8 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+ent-v314-015:Quincy-mtec1002 student$ pwd
+/Users/student/Quincy-mtec1002
 
 
 ==========
@@ -42,7 +45,9 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+ent-v314-015:Quincy-mtec1002 student$ mkdir animals
+ent-v314-015:Quincy-mtec1002 student$ ls
+animals
 
 
 ==========
@@ -53,7 +58,9 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+ent-v314-015:Quincy-mtec1002 student$ mkdir food
+ent-v314-015:Quincy-mtec1002 student$ ls
+animals	food
 
 
 ==========
@@ -64,7 +71,9 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+ent-v314-015:Quincy-mtec1002 student$ mkdir -p foo/bar/baz/qux
+ent-v314-015:Quincy-mtec1002 student$ ls
+animals	foo	food
 
 
 ==========
@@ -75,7 +84,9 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+ent-v314-015:Quincy-mtec1002 student$ cd foo/bar/baz/qux
+ent-v314-015:qux student$ pwd
+/Users/student/Quincy-mtec1002/foo/bar/baz/qux
 
 
 ==========
