@@ -97,7 +97,9 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+G608-03:~ quincy.lewis07$ cd ../..
+G608-03:/ quincy.lewis07$ pwd
+/
 
 
 ==========
@@ -108,7 +110,10 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+G608-03:/ quincy.lewis07$ cd - 
+/Users/quincy.lewis07
+G608-03:~ quincy.lewis07$ pwd
+/Users/quincy.lewis07
 
  
 ==========
@@ -119,7 +124,9 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+G608-03:~ quincy.lewis07$ cd ../../../..
+G608-03:/ quincy.lewis07$ pwd
+/
 
 
 ==========
