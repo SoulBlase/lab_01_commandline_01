@@ -344,7 +344,7 @@ A pathname is a general name of a file or directory that specifies it's unique l
 ==========
 29. What's a directory?
 ----------
-A directory
+A directory is a structure on a file system that contains other files.
 
 
 ==========
