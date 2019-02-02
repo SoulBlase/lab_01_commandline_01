@@ -320,13 +320,13 @@ The command used to delete empty directories is rmdir (remove directory).
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+To print out your current working directory, use the pwd command.
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
-
+To print out all files, use the -a flag. 
 
 
 ==========
