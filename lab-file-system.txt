@@ -99,7 +99,7 @@ Copy and paste the output below.
 ----------
 G608-03:~ quincy.lewis07$ cd ../..
 G608-03:/ quincy.lewis07$ pwd
-/
+/c/Users/Quincy/Quincy-mtec1002/foo/bar
 
 
 ==========
@@ -126,7 +126,7 @@ Copy and paste the output below.
 ----------
 G608-03:~ quincy.lewis07$ cd ../../../..
 G608-03:/ quincy.lewis07$ pwd
-/
+/c/Users
 
 
 ==========
@@ -138,6 +138,23 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
+Quincy@DESKTOP-GMRF7TO MINGW64 /c/Users
+$ ls -l
+total 25
+lrwxrwxrwx 1 Quincy 197121  14 Apr 11  2018 'All Users' -> /c/ProgramData/
+drwxr-xr-x 1 Quincy 197121   0 May 19  2018  Default/
+lrwxrwxrwx 1 Quincy 197121  16 Apr 11  2018 'Default User' -> /c/Users/Default/
+drwxr-xr-x 1 Quincy 197121   0 May 19  2018  defaultuser0/
+-rw-r--r-- 1 Quincy 197121 174 Apr 11  2018  desktop.ini
+drwxr-xr-x 1 Quincy 197121   0 Aug 15 11:20 'DF Administrator'/
+drwxr-xr-x 1 Quincy 197121   0 Nov 26 16:33  Lorraine/
+drwxr-xr-x 1 Quincy 197121   0 Jul 13  2018  Public/
+drwxr-xr-x 1 Quincy 197121   0 Jan 30 10:09  Quincy/
+drwxr-xr-x 1 Quincy 197121   0 Nov 16 21:40  Tiffany/
+
+Quincy@DESKTOP-GMRF7TO MINGW64 /c/Users
+$ rmdir animals
+rmdir: failed to remove 'animals': No such file or directory
 
 
 
@@ -149,6 +166,12 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+Quincy@DESKTOP-GMRF7TO MINGW64 /c/Users
+$ cd ~
+
+Quincy@DESKTOP-GMRF7TO MINGW64 ~
+$ pwd
+/c/Users/Quincy
 
 
 
@@ -160,7 +183,13 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/Quincy-mtec1002
+$ cd /volumes
+bash: cd: /volumes: No such file or directory
 
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/Quincy-mtec1002
+$ pwd
+/c/Users/Quincy/Quincy-mtec1002
 
 
 ==========
@@ -171,7 +200,13 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/Quincy-mtec1002
+$ cd /unknown_folder
+bash: cd: /unknown_folder: No such file or directory
 
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/Quincy-mtec1002
+$ pwd
+/c/Users/Quincy/Quincy-mtec1002
 
 
 ==========
@@ -182,7 +217,9 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/Quincy-mtec1002
+$ pwd
+/c/Users/Quincy/Quincy-mtec1002
 
 
 ==========
@@ -192,13 +229,20 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+Quincy@DESKTOP-GMRF7TO MINGW64 ~
+$ hostname
+DESKTOP-GMRF7TO
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
+Quincy@DESKTOP-GMRF7TO MINGW64 ~
+$ cd Quincy-mtec1002
 
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/Quincy-mtec1002
+$ pwd
+/c/Users/Quincy/Quincy-mtec1002
 
 
 ==========
@@ -221,7 +265,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p lemon/strawberry/orange/pineapple
 
 
 ==========
@@ -229,7 +273,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
@@ -237,7 +281,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+drwxr-xr-x 1 Quincy 197121 0 Feb  1 18:24 aardvark/
 
 
 ==========
@@ -249,7 +293,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+The command I used is mkdir -p. 
 
 
 ==========
@@ -257,7 +301,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+The command I use is cd. 
 
 
 ==========
@@ -265,12 +309,12 @@ What command did you use?
 
 What command did you use?
 ----------
-
+The comand I used to change up to two directories is ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+The command used to delete empty directories is rmdir (remove directory).
 
 
 ==========
@@ -288,19 +332,19 @@ What command did you use?
 ==========
 27. What's the shortcut for home directory?
 ----------
-
+The shortcut for the home directory is the ~ (tilde).
 
 
 ==========
 28. What's a pathname?
 ----------
-
+A pathname is a general name of a file or directory that specifies it's unique location in the file system.
 
 
 ==========
 29. What's a directory?
 ----------
-
+A directory
 
 
 ==========
