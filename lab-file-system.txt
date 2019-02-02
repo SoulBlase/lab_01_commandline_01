@@ -237,6 +237,8 @@ DESKTOP-GMRF7TO
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
+To find out if you're in the right folder, type the <cd> command and then the <pwd> command.
+
 Quincy@DESKTOP-GMRF7TO MINGW64 ~
 $ cd Quincy-mtec1002
 
@@ -350,3 +352,4 @@ A directory is a structure on a file system that contains other files.
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+The absolute path to the user's downloads directory is /c/Users/Quincy/Downloads.
